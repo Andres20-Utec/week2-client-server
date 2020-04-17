@@ -33,6 +33,7 @@ def es_primo(numero):
     else:
         return str(True)
 
+
 @app.route('/saludar')
 def saludar():
     return "Hola2"
