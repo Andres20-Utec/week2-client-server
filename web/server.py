@@ -4,7 +4,6 @@ from model import entities
 import math
 import json
 import time
-#import math
 
 db = connector.Manager()
 engine = db.createEngine()
